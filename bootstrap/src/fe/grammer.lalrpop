@@ -1,0 +1,5 @@
+grammar;
+
+pub File: String = {
+    <s:r"[a-zA-Z]+"> => String::from(s)
+};
